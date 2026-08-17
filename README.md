@@ -123,6 +123,13 @@ npm run dev
 
 启动后进入**设置中心**配置 AI 服务的 API Key，内置配置教程。
 
+### Codex 账号（实验性）
+
+本 Fork 提供可选的 Codex OAuth 兼容桥接，可复用本机 `codex login` 的
+ChatGPT 登录状态，为 waoowaoo 提供 Sol 文本分析和图片生成能力，无需填写
+OpenAI API Key。启动与安全说明见
+[`integrations/codex/README.md`](integrations/codex/README.md)。
+
 > 💡 **注意**：目前仅推荐使用各服务商官方 API，第三方兼容格式（OpenAI Compatible）尚不完善，后续版本会持续优化。
 
 ---
