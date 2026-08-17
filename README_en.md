@@ -109,6 +109,14 @@ Visit [http://localhost:13000](http://localhost:13000) (Method 1 & 2) or [http:/
 
 After launching, go to **Settings** to configure your AI service API keys. A built-in guide is provided.
 
+### Codex account (experimental)
+
+This fork includes an optional Codex OAuth compatibility bridge. It reuses the
+local ChatGPT session created by `codex login` to provide Sol text analysis and
+image generation without an OpenAI API key. See
+[`integrations/codex/README.md`](integrations/codex/README.md) for setup and
+security notes.
+
 > 💡 **Note**: Currently only official provider APIs are recommended. Third-party compatible formats (OpenAI Compatible) are not yet fully supported and will be improved in future releases.
 
 ---
